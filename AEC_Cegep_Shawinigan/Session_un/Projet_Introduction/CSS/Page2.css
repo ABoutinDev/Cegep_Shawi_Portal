@@ -1,0 +1,177 @@
+/* Imported FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* MAIN CONTENT*/
+
+/* LEFT */
+.sideBox_Left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "montserrat", sans-serif;
+}
+
+.sideBox_Left .sideBox_microsoftNews{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 80%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sideBox_Left .sideBox_microsoftIcon{
+    width: 100%;
+    height: 25%;
+    margin-bottom: 25px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("/Media/Bill_gates.webp");
+    border-radius: 100%;
+}
+
+.sideBox_Left i{
+    font-size: 1.25rem;
+}
+
+/* MIDDLE */
+.midBox_Center{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+   
+}
+
+.midBox_Center h1{
+    font-size: 3rem;
+    font-family: "montserrat", sans-serif;
+}
+
+.midBox_Center h3{
+    font-size: 1.7rem;
+    font-family: "montserrat", sans-serif;
+    margin: 0;
+}
+
+.midBox_Center i{
+    font-size: 1.25rem;
+    font-family: "montserrat", sans-serif;
+}   
+
+.midBox_Center p{
+
+    font-size: 1.7rem;
+    font-family: "montserrat", sans-serif;
+}
+
+
+.midBox_Center .msgComms {
+    display: flex;
+    justify-content: center;
+}
+
+.midBox_Center .socialLink{
+    display: flex;
+    justify-content: center;   
+}
+
+.midBox_Center ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.midBox_Center ul li{
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+}
+
+.midBox_Center ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    transition: all 0.4s ease 0s;
+    box-shadow: 0 4px 4px rgba(180, 180, 180, 0.5);
+}
+
+.midBox_Center li .iconsLink{
+    font-size: 45px;
+    line-height: 60px;
+    transition: .6s;
+    color: rgba(118, 132, 141, 0.514);
+}
+
+.midBox_Center a:hover{
+    transform: translate(0, -10px);
+}
+
+
+/* RIGHT */
+.sideBox_Right{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    font-family: "montserrat", sans-serif;
+}
+
+.sideBox_Stats{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 80%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sideBox_Stats table{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    border: solid 3px black;
+    font-family: "montserrat", sans-serif;  
+}
+
+.sideBox_Stats table td{
+    border: solid 1px black;
+}
+.sideBox_Stats table tbody th{
+    border: solid 2px black;
+    background-color: black;
+    color: white;
+}
+
+.sideBox_Stats table thead{
+    display: flex;
+    justify-content: center;
+    border-width: 100%;
+    border: solid 2px black;   
+    background-color: black;
+    color: white;
+}
+
+.sideBox_Stats table .windowsIcon{
+    size: 25px;
+}
+
+.sideBox_Stats .windowsIcons{
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("/Media/windows_icons.webp");
+}

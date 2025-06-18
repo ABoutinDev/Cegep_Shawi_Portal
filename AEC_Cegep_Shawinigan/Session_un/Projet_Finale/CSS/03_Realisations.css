@@ -1,0 +1,257 @@
+/* MAIN CONTENT GRID DIVISION */
+/* .main-grid-container{
+    width: 100%;
+    height: auto;
+        grid-area: m;
+    display: grid;
+        grid-template-areas: "m";
+    justify-content: center;
+} */
+.main-container{
+    width: 100%;
+    height: auto;
+
+        grid-area: mc;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+} 
+
+/* SUB GRID DIVISION */
+.intro-container{
+    width: 100%;
+    height: auto;
+    padding: 1em 1em;
+      
+    display: grid;
+
+    justify-items: center;
+    text-align: center;
+
+    background-image: linear-gradient(to right, var(--bg-color), var(--second-bg-color));
+}
+.projets-container{ 
+    width: 100%;
+    height: auto;
+
+    display: grid;
+    grid-template-areas: 
+    "p";
+    
+    align-items: center;
+    
+    border-top: solid 1px var(--text-color);
+    background-image: linear-gradient(to right, var(--third-bg-color), var(--second-bg-color));
+    /* background-color: var(--second-bg-color); */
+    /* BORDER TEST */
+    /* border: 3px dashed blue; */  
+}
+/* PROJET GRID DIVISION */
+.projets{ 
+    width: 100%;
+    height: auto;
+        padding: 1em 1em;
+
+    grid-area: p;
+    display: grid;
+    gap: 2em 2em;
+    grid-template-areas: 
+    "A1 1A"
+    "A2 2A"
+    "A3 3A"
+    "A4 4A";
+    
+    align-items: center;
+    justify-content: space-between;
+
+    /* BORDER TEST */
+    /* border: 3px dashed blue; */  
+}
+.projet1-image{
+    width: 90%;
+    height: auto;
+    grid-area: A1;
+    justify-self: right;
+
+    border: 1px solid var(--main-color);
+    box-shadow: 0.5em 0.5em 0.5em var(--third-bg-color);
+}
+.projet1-info{
+    grid-area: 1A;
+    padding: 0px 20px 0px 100px;
+}
+.projet2-image{
+    width: 90%;
+    height: auto;
+    grid-area: 2A;
+    border: 1px solid var(--main-color);
+    box-shadow: -0.5em 0.5em 0.5em var(--third-bg-color);
+}
+.projet2-info{
+    grid-area: A2;
+    padding: 0px 100px 0px 20px;
+    text-align: right;
+}
+.projet3-image{
+    width: 90%;
+    height: auto;
+    grid-area: A3;
+    justify-self: right;
+
+    border: 1px solid var(--main-color);
+    box-shadow: 0.5em 0.5em 0.5em var(--third-bg-color);
+}
+.projet3-info{
+    grid-area: 3A;
+    padding: 0px 20px 0px 100px;
+}
+.projet4-image{
+    width: 90%;
+    height: auto;
+    grid-area: 4A;
+    border: 1px solid var(--main-color);
+    box-shadow: -0.5em 0.5em 0.5em var(--third-bg-color);
+}
+.projet4-info{
+    grid-area: A4;
+    padding: 0px 100px 0px 20px;
+    text-align: right;
+}
+.informations{
+    display: grid;   
+}
+.icon-item-left{ 
+    display: grid;
+    grid-template-areas: "i info";
+    justify-self: left; 
+}
+.icon-item-right{ 
+    display: grid;
+    grid-template-areas: "info i";
+    justify-self: right; 
+}
+.icon{
+    grid-area: i;
+    align-content: center;
+    font-size: var(--fs-xl);
+    color: var(--second-main-color);
+}
+.item{
+    grid-area: info;
+}
+
+/* INTRO CONTAINER */
+.intro-container h1{       
+    padding: 8px 0px;
+    font-size: var(--fs-xl);
+}
+.intro-container p{       
+    padding: 1em 1em;
+    font-size: var(--fs-500);
+}
+
+/* PROJET CONTAINER */
+.projets-container img{ 
+    width: 100%;
+    height: auto;
+}
+.projets-container li{
+    padding: 4px 8px;
+    list-style-type: none;
+    color: var(--text-color);
+    font-size: var(--fs-600);
+    text-shadow: 1px 1px 2px var(--third-bg-color);
+}
+.projets-container .ionicon.s-ion-icon{
+    font-size: var(--fs-xl);
+}
+
+/* MEDIA QUERIES UNDER 1980px */
+@media only screen and (max-width:1980px){
+    :root {
+        --main-color: #bfbfbf;
+        --second-main-color: #c83730; 
+    
+        --bg-color: #ffffff80;
+        --second-bg-color: #7f7e82;
+        --third-bg-color: #000;
+    
+        --text-color: #fff;
+        
+        --fs-xl: 2rem;
+        --fs-600: 1.5rem;
+        --fs-500: 1.25rem;
+        --fs-400: 1rem;
+    }
+}
+/* MEDIA QUERIES UNDER 640px */
+@media only screen and (max-width:640px){
+    :root {
+        --main-color: #bfbfbf;
+        --second-main-color: #c83730; 
+    
+        --bg-color: #ffffff80;
+        --second-bg-color: #7f7e82;
+        --third-bg-color: #000;
+    
+        --text-color: #fff; 
+        
+        --fs-xl: 4rem;
+        --fs-600: 3rem;
+        --fs-500: 2.5rem;
+        --fs-400: 2rem;
+    }
+    .projets{ 
+        width: 100%;
+        height: auto;
+            margin-top: 25px;
+            margin-bottom: 25px;
+    
+        grid-area: p;
+        display: grid;
+        
+        grid-template-areas: 
+        "img1" 
+        "info1"
+        "img2" 
+        "info2"
+        "img3" 
+        "info3"
+        "img4" 
+        "info4";
+        
+        align-items: center;
+        justify-content: space-evenly;
+    
+        /* BORDER TEST */
+        /* border: 3px dashed blue; */  
+    }
+    .projet1-image{
+        grid-area: img1;
+        justify-self: center;
+    }
+    .projet1-info{
+        grid-area: info1;
+    }
+    .projet2-image{
+        grid-area: img2;
+        justify-self: center;
+    }
+    .projet2-info{
+        grid-area: info2;
+    }
+    .projet3-image{
+        grid-area: img3;
+        justify-self: center;
+    }
+    .projet3-info{
+        grid-area: info3;
+    }
+    .projet4-image{
+        grid-area: img4;
+        justify-self: center;
+    }
+    .projet4-info{
+        grid-area: info4;
+    }
+}
