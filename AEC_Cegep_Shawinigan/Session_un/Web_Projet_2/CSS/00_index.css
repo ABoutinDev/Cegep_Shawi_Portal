@@ -1,0 +1,167 @@
+/* GLOBAL STYLE */
+:root {
+    --bg-color: #000;
+    --second-bg-color: #bfbfbf;
+    --third-bg-color: #fff;
+    --main-color: #bfbfbf;
+    --text-color: #fff; 
+    --second-text-color: #000;
+}
+
+
+/* BODY */
+
+/* WEBSITE CONTENT */
+.main-container{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main-container .main-container-box{
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-wrap: wrap;
+
+    font-size: 1rem;
+    border-left: smooth 2px var(--bg-color);
+    border-right: smooth 2px var(--bg-color);
+    border-bottom: smooth 2px var(--bg-color);
+}
+
+.main-container-box .img-content-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-container-box a{
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-style: italic;
+    text-shadow: var(--second-text-color) 5px 0 20px;
+}
+.main-container-box h2{
+    margin: 0;
+    padding: 0;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--text-color);
+    font-style: italic;
+    text-decoration-line: underline;
+    text-shadow: var(--second-text-color) 5px 0px 20px;
+}
+
+.main-container-box p{    
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* MAIN CONTENT ANIMATION */
+.main-container-box a:hover{
+transform: scale(1.01);
+transition: ease 0.3s;
+box-shadow: var(--bg-color) 0 0 3px 3px;
+}
+
+.main-container-box a:active{
+    transform: scale(1);
+    transition: ease 0.3s;
+}
+
+
+.main-container-box .img-services {
+    width: 50%; 
+    height: 70%;
+    margin: 10px;
+
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(/Medias/repas-de-noel.jpg);
+    background-position: center;
+    border: solid 2px var(--bg-color);
+}
+
+.main-container-box .img-blogue {
+    width: 50%;
+    height: 70%;
+    margin: 10px;
+
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(/Medias/blog.png);
+    background-position:  center;
+    border: solid 2px var(--bg-color);
+}
+
+.main-container-box .img-contact {
+    width: 50%;
+    height: 70%;
+    margin: 10px;
+
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(/Medias/contact.jpg);
+    background-position: center;
+    border: solid 2px var(--bg-color);
+}
+
+/* MEDIA QUERIES FOR MOBILE */
+
+/* NOTE POUR MAUDE. Je sais que la largeur d'un Iphone SE est de 377. 
+   J'ai commencer mon affichage mobile sur un peu plus grand.*/
+
+@media only screen and (max-width: 576px) {
+    
+/* A TRAVAILLER */
+.main-container{
+    padding: 0;
+}
+
+.main-container-box{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main-container-box .img-content-box a{
+    min-height: 200px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+}

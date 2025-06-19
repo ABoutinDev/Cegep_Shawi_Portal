@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/00_global.css">
+    <link rel="stylesheet" href="CSS/02_contact.css">        
+    <title> Projet #2 Alex Boutin </title>        
+</head>
+
+<body>
+
+    <div class="main-body-content">
+        <header class="header">
+            <nav class="nav-bar-container">
+                <div class="nav-bar">
+                    <ul>
+                        <li>  
+                            <a href="00_Index.html" class="btn"> Index </a>
+                        </li>
+                        <li> 
+                            <a href="01_Services.html" class="btn"> Services </a> 
+                        </li>
+                        <li>
+                            <a href="02_Contact.html" class="btn"> Contact </a>
+                        </li>
+                        <li>
+                            <a href="03_Blogue.html" class="btn"> Blogue </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+            
+        <section class="main-content">     
+            <div class="main-container">
+                <div class="main-container-box">             
+                    
+                    <h2>Informations pour nous contacter</h2>
+                    <p> 
+                        Notre équipe de chefs passionnés a une riche expérience dans la cuisine festive et 
+                        s'engage à faire de votre repas un moment mémorable. Votre satisfaction est notre 
+                        priorité. Nous mettons un point d'honneur à dépasser vos attentes. 
+                    </p>   
+                    <p> 
+                        Les traiteurs de l'Estrie, 4303 Boulevard de Portsarim, J12 0S2, Sherbrooke, Canada.
+                    </p>
+                    <div class="main-container-form">
+                        <form action="00_Index.html" method="get">
+                            <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                            <input type="text" id="prenom" name="prenom" placeholder="Votre prenom" required>
+                            <input type="email" id="email" name="email" placeholder="Votre email" required>
+                            <input type="text" id="sujet" name="sujet" placeholder="Sujet" required>
+                            <select name="menu" id="menu" required>
+                                <option value="choix"></option>
+                                <option value="choix1">4 choix de plat principaux</option>
+                                <option value="choix2">2 choix de plat principaux</option>
+                                <option value="choix3">2 choix de plat principaux et 1 vegetarien</option>
+                                <option value="choix4">Menu complet vegetarien</option>
+                                <option value="choix5">Menu complet vegan</option>
+                            <textarea name="comment" id="comment">Laissez nous un commentaire</textarea>
+                            <input type="number" id="age" name="age" placeholder="Votre age" required>                 
+                            <input type="date" id="date" name="date" required>
+                            <p> Evaluez-nous nos services</p>
+                            <div class="evaluation">
+                                <label for="A">Excellent</label><br> 
+                                <input type="radio" id="A" name="eval" placeholder="Evaluation ">
+                                <label for="B">Parfait </label><br>                           
+                                <input type="radio" id="B" name="eval" placeholder="Evaluation ">
+                                <label for="C">Mediocre </label><br>  
+                                <input type="radio" id="C" name="eval" placeholder="Evaluation ">
+                                <label for="D">Decu </label><br>   
+                                <input type="radio" id="D" name="eval" placeholder="Evaluation ">                                                                
+                            </div>
+                                                      
+                            <button class="submitBtn" type="submit"> Soumettre </button>  
+                        </form>
+                    </div>    
+                </div>
+            </div>                     
+        </section>
+        
+    <footer>
+        <div class="bottom-container">  
+
+            <div class="top-btn-box">
+                <a href="#top"> Haut de la page </a>
+            </div>
+
+            <div class="copyrights-box">                        
+                <div class="copyrights-box-icon">
+                    <box-icon name='copyright' color='#ffffff'> </box-icon>
+                </div>
+                <div class="copyrights-box-info">
+                    <h2> COPYRIGHT: Alex Boutin, Tous droits réservés. </h2>
+                </div>                        
+            </div>
+
+        </div>
+    </footer>
+
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<!-- SCRIPT HERE -->
+</body>
+</html>

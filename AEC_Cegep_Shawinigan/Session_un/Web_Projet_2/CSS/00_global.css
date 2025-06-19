@@ -1,0 +1,177 @@
+
+/* GLOBAL STYLE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif
+}
+
+:root {
+    --bg-color: #000;
+    --second-bg-color: #bfbfbf;
+    --third-bg-color: #fff;
+    --main-color: #bfbfbf;
+    --text-color: #fff; 
+    --second-text-color: #000;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    /* BORDER TEST 
+    border: 5px dashed red;*/
+}
+
+/* WEBSITE CONTENT */
+.main-body-content{
+    /* IMAGE BACKGROUND SETTINGS */
+    background-position: center;
+    background: url(/Medias/background1.jpg);
+    background-size: cover;
+}
+
+/* HEADER */
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-color);
+}
+
+/* NAV BAR */
+.header .nav-bar-container ul {
+    width: 100%;
+    min-height: 30px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-bar ul li {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    width: 100%;
+    margin: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    border-left: solid 1px;
+    border-top: solid 1px;
+    border-left-color: var(--second-bg-color);
+    border-top-color: var(--second-bg-color); 
+    box-shadow: 0 0 1px var(--second-bg-color);
+    color: var(--text-color);
+    font-size: 1.25rem;
+}
+/* NAV BAR ANIMATION */
+.nav-bar a:hover{
+    transform: scale(1.05);
+    color: var(--main-color);
+}
+
+.nav-bar a:active{
+    color: var(--main-color);
+    box-shadow: var(--main-color) 1px 1px;
+    transform: scale(0.95);
+}
+
+/* FOOTER */
+.bottom-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.top-btn-box{
+    background-color: var(--bg-color);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.top-btn-box a{
+    width: 145px;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-left: solid 1px;
+    border-top: solid 1px;
+    border-left-color: var(--second-bg-color);
+    border-top-color: var(--second-bg-color); 
+    box-shadow: 0 0 1px var(--second-bg-color);
+
+    color: var(--text-color);
+    font-size: 1.25rem;
+}
+
+.copyrights-box{
+    min-height: 32px;
+    max-height: auto;
+    padding: 5px;
+
+    display: flex;
+    align-items: center;
+
+    background: var(--bg-color);
+}
+
+.copyrights-box .copyrights-box-info h2{
+    font-size: 1.25rem;
+    color: var(--text-color);
+}
+
+.top-btn-box a:hover{
+    transform: scale(1.05);
+    color: var(--main-color);
+}
+
+.top-btn-box a:active{
+    color: var(--main-color);
+    box-shadow: var(--main-color) 1px 1px;
+    transform: scale(0.95);
+}
+
+
+/* MEDIA QUERIES FOR MOBILE */
+
+/* NOTE POUR MAUDE. Je sais que la largeur d'un Iphone SE est de 377. 
+   J'ai commencer mon affichage mobile sur un peu plus grand.*/
+
+@media only screen and (max-width: 576px) {
+    .header .nav-bar-container{
+        width: 100%;
+    }
+    .nav-bar ul{
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-bar li{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-bar .btn {
+        padding: 0;
+        margin: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,21 +1,19 @@
 # 💻 Alex Boutin - Dépôt de Projets Web 💻
 
-![Statut](https://img.shields.io/badge/Statut-En%20cours-yellow?style=for-the-badge)
 ### 👨‍🎓 AEC en Développement d'Applications Web - Cégep de Shawinigan 
 - Debut septembre 2024 
 - Fin: Octobre 2025 
 - **Informations de stage:** 
     - 13 octobre au 14 novembre 2025 (150h en milieu de stage sur 5 semaines)
     - Éligible au crédit d'impôt en milieu de stage si rémunéré
+![Statut](https://img.shields.io/badge/Statut-En%20cours-yellow?style=for-the-badge)
 
 ## Description
 
 Ce dépôt regroupe plusieurs projets réalisés dans le cadre de ma formation en développement d'applications web (AEC) au Cégep de Shawinigan.  
 Les dossiers sont organisés par session et par projet.
 
-
 ## Arborescence du dépôt
-
 
 **GitHub_Repo_ABoutinDev**
 - Session_un/

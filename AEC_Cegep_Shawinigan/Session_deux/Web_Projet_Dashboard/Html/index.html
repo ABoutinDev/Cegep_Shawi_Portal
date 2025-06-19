@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="/CSS/globale.css">
+    <link rel="stylesheet" href="/Css/sidebar.css">
+    <link rel="stylesheet" href="/CSS/dashboard.css">
+    <link rel="stylesheet" href="/Css/widgets.css">
+    <script src="https://cdn.jsdelivr.net/npm/interactjs@1.10.27/dist/interact.min.js"></script>
+    <script defer type="module" src="/JavaScript/Dashboard.js"></script>
+    <script defer type="module" src="/JavaScript/Systems/01.User_Leveling.js"></script>
+    <script defer type="module" src="/JavaScript/Systems/02.User_Keybind.js"></script>
+    <script defer type="module" src="/JavaScript/Utilities/00.Create_Element.js"></script>
+    <script defer type="module" src="/JavaScript/Utilities/01.Local_Save.js"></script>
+    <title>Page d'accueil</title>
+</head>
+<header>
+</header>
+
+<body>
+    <div id="MainContainer" class="flex-column">
+        <div id="TopButtonBar" class="flex-row justify-left">
+            <button id="OpenBoardButton" class="DashboardButton">
+                DASHBOARD [Shift + D]
+                <div id="clip">
+                    <div id="leftTop" class="corner"></div>
+                    <div id="rightBottom" class="corner"></div>
+                    <div id="rightTop" class="corner"></div>
+                    <div id="leftBottom" class="corner"></div>
+                </div>
+                <span id="rightArrow" class="arrow"></span>
+                <span id="leftArrow" class="arrow"></span>
+            </button>
+        </div>
+
+        <div id="SearchBar">
+            <div id="InputTextBar">
+                <input id="GoogleBar" class="input-text text-center color-flax" type="text" name="searchBar"
+                    placeholder="Search">
+                <button id="GoogleGo"><span class="material-symbols-outlined">
+                        search
+                    </span></button>
+            </div>
+            <p id="SearchLabel" for="searchBar" class="text-small italic text-center color-flax"> Daily quote
+                generated... </p>
+        </div>
+    </div>
+
+    <div id="Modal">
+
+        <nav id="Sidebar">
+            <div id="SideButtons" class="flex-row">
+                <button id="CloseModalBtn" class="btn">
+                    <span class="material-symbols-outlined">
+                        right_panel_open
+                    </span>
+                </button>
+            </div>
+            <div id="WidgetList">
+                <ul>
+                    <li class="widget-icon">
+                        <button id="ToDoList" class="w-icon">📜</button>
+                    </li>
+                    <li class="widget-icon">
+                        <button id="StockTracker" class="w-icon">💰</button>
+                    </li>
+                    <li class="widget-icon">
+                        <button id="StickyNotes" class="w-icon">📝</button>
+                    </li>
+                    <li class="widget-icon">
+                        <button id="WeatherWidget" class="w-icon">⛅</button>
+                    </li>
+                    <li class="widget-icon">
+                        <button id="IdleGameWidget" class="w-icon">🏛️</button>
+                    </li>
+                    <li class="widget-icon">
+                        <button id="DailyQuoteWidget" class="w-icon">😌</button>
+                    </li>
+                    <li class="widget-icon">
+                        <button id="PomodoroWidget" class="w-icon">🍅</button>
+                    </li>
+                    <li class="widget-icon">
+                        <button id="CalculatorWidget" class="w-icon">➕</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="Dashboard">
+
+        </div>
+
+        <div id="XPDisplayContainer">
+            <div id="XPLevelBadge"></div>
+            <div id="XPLabel"></div>
+            <div id="XPBarOuter">
+                <div id="XPBarInner"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

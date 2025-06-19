@@ -1,0 +1,15 @@
+C:\AB_Workspace\Workspace_CegepShawi\Programmation & Algorithmes\CGP_Travaux_sommatifs\Projet_Battleship\Battleship\Jeu_Battleship\bin\Debug\net8.0\Jeu_Battleship.exe
+C:\AB_Workspace\Workspace_CegepShawi\Programmation & Algorithmes\CGP_Travaux_sommatifs\Projet_Battleship\Battleship\Jeu_Battleship\bin\Debug\net8.0\Jeu_Battleship.deps.json
+C:\AB_Workspace\Workspace_CegepShawi\Programmation & Algorithmes\CGP_Travaux_sommatifs\Projet_Battleship\Battleship\Jeu_Battleship\bin\Debug\net8.0\Jeu_Battleship.runtimeconfig.json
+C:\AB_Workspace\Workspace_CegepShawi\Programmation & Algorithmes\CGP_Travaux_sommatifs\Projet_Battleship\Battleship\Jeu_Battleship\bin\Debug\net8.0\Jeu_Battleship.dll
+C:\AB_Workspace\Workspace_CegepShawi\Programmation & Algorithmes\CGP_Travaux_sommatifs\Projet_Battleship\Battleship\Jeu_Battleship\bin\Debug\net8.0\Jeu_Battleship.pdb
+C:\AB_Workspace\Workspace_CegepShawi\Programmation & Algorithmes\CGP_Travaux_sommatifs\Projet_Battleship\Battleship\Jeu_Battleship\obj\Debug\net8.0\Jeu_Battleship.GeneratedMSBuildEditorConfig.editorconfig
+C:\AB_Workspace\Workspace_CegepShawi\Programmation & Algorithmes\CGP_Travaux_sommatifs\Projet_Battleship\Battleship\Jeu_Battleship\obj\Debug\net8.0\Jeu_Battleship.AssemblyInfoInputs.cache
+C:\AB_Workspace\Workspace_CegepShawi\Programmation & Algorithmes\CGP_Travaux_sommatifs\Projet_Battleship\Battleship\Jeu_Battleship\obj\Debug\net8.0\Jeu_Battleship.AssemblyInfo.cs
+C:\AB_Workspace\Workspace_CegepShawi\Programmation & Algorithmes\CGP_Travaux_sommatifs\Projet_Battleship\Battleship\Jeu_Battleship\obj\Debug\net8.0\Jeu_Battleship.csproj.CoreCompileInputs.cache
+C:\AB_Workspace\Workspace_CegepShawi\Programmation & Algorithmes\CGP_Travaux_sommatifs\Projet_Battleship\Battleship\Jeu_Battleship\obj\Debug\net8.0\Jeu_Battleship.sourcelink.json
+C:\AB_Workspace\Workspace_CegepShawi\Programmation & Algorithmes\CGP_Travaux_sommatifs\Projet_Battleship\Battleship\Jeu_Battleship\obj\Debug\net8.0\Jeu_Battleship.dll
+C:\AB_Workspace\Workspace_CegepShawi\Programmation & Algorithmes\CGP_Travaux_sommatifs\Projet_Battleship\Battleship\Jeu_Battleship\obj\Debug\net8.0\refint\Jeu_Battleship.dll
+C:\AB_Workspace\Workspace_CegepShawi\Programmation & Algorithmes\CGP_Travaux_sommatifs\Projet_Battleship\Battleship\Jeu_Battleship\obj\Debug\net8.0\Jeu_Battleship.pdb
+C:\AB_Workspace\Workspace_CegepShawi\Programmation & Algorithmes\CGP_Travaux_sommatifs\Projet_Battleship\Battleship\Jeu_Battleship\obj\Debug\net8.0\Jeu_Battleship.genruntimeconfig.cache
+C:\AB_Workspace\Workspace_CegepShawi\Programmation & Algorithmes\CGP_Travaux_sommatifs\Projet_Battleship\Battleship\Jeu_Battleship\obj\Debug\net8.0\ref\Jeu_Battleship.dll

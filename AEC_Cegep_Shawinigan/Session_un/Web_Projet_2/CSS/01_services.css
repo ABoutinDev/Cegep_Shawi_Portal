@@ -1,0 +1,128 @@
+
+:root {
+    --bg-color: #000;
+    --second-bg-color: #bfbfbf;
+    --third-bg-color: #fff;
+    --main-color: #bfbfbf;
+    --text-color: #fff; 
+    --second-text-color: #000;
+}
+
+/* WEBSITE CONTENT */
+.main-content{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.main-container-content0{    
+    width: 90%; 
+    min-height: 100px;
+    height: auto;
+    margin-left: 10px; 
+    margin-right: 10px;
+
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(/Medias/services_header0.jpg);
+    background-position: center;
+    border: solid 1px var(--bg-color);
+}
+
+.main-container-content1{
+    width: 90%;
+    height: auto;
+    margin: 10px; 
+}
+
+.main-container-content1 .couronne{
+    width: 100%;
+    max-width: 700px;
+    max-height: 600px;
+
+    border: solid 1px var(--bg-color);
+    float: left;
+}
+
+.main-container-content1 .sapin{ 
+    width: 100%;
+    max-width: 700px;
+    max-height: 600px;
+
+    border: solid 1px var(--bg-color);
+    float: right;
+}
+
+.main-container-content2{
+    width: 90%;
+    height: auto;
+    margin: 10px; 
+}
+
+
+.main-body-content h1{
+    width: 100%;
+    height: auto;
+    padding-left: 15px;
+
+    font-size: 3rem;
+    color: var(--text-color);
+    text-shadow: var(--second-text-color) 5px 0 20px;
+}
+
+.main-body-content h2{
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    color: var(--text-color);
+    text-shadow: var(--second-text-color) 5px 0 20px;
+}
+.main-body-content h3{
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+    color: var(--text-color);
+    text-shadow: var(--second-text-color) 5px 0 20px;
+}
+.main-body-content p{
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    text-shadow: var(--second-text-color) 5px 0 20px;
+}
+
+.main-body-content form{
+    max-width: 300px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main-body-content input{
+    margin-bottom: 15px;
+    min-height: 25px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    
+    .banquet{
+    width: 100%;
+    height: auto;
+    }
+
+}
