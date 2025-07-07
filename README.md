@@ -1,7 +1,7 @@
 # 💻 Portail d'Alex Boutin 
 - Recherche stage et emploi activement
-- Preferences: 
-- Informations: 
+- Préférences: Développement **"front-end"** 
+- Informations: Le **"back-end"** est egalement intéressant mais, je suis quelqu'un de visuel et créatif. 
 
 ## Dépôt de projets et travaux
 - **Ce dépôt regroupe plusieurs projets réalisés.** Pour l'instant il contient seulement des travaux executer dans le cadre de ma formation en développement d'applications web (AEC) au Cégep de Shawinigan. Chaque projet contient un fichier README avec des indications et certaines remarques personnelles.
@@ -33,7 +33,7 @@
     - Web_Projet_Dashboard/
     - Web_Projet_LocalForm/
 - Session_trois/
-    - (Dossier en préparation)
+    - Web_TP1_VueJs_Store/
 ---
 
 **© 2024 Alex Boutin**

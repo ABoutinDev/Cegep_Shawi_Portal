@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Sword",
+        "type": "Weapon",
+        "price": 5,
+        "quantity": 6,
+        "fileName": "sword_basic_blue.png"
+    },
+    {
+        "id": 2,
+        "name": "Bow",
+        "type": "Weapon",
+        "price": 3.5,
+        "quantity": 9,
+        "fileName": "bow_wood.png"
+    },
+    {
+        "id": 3,
+        "name": "Arrow",
+        "type": "Weapon",
+        "price": 0.5,
+        "quantity": 31,
+        "fileName": "arrow_basic.png"
+    },
+    {
+        "id": 4,
+        "name": "Iron Pickaxe",
+        "type": "Tool",
+        "price": 4,
+        "quantity": 14,
+        "fileName": "pickaxe_basic.png"
+    },
+    {
+        "id": 5,
+        "name": "Shield",
+        "type": "Tool",
+        "price": 6.2,
+        "quantity": 8,
+        "fileName": "shield_basic_metal.png"
+    },
+    {
+        "id": 6,
+        "name": "Life Potion",
+        "type": "Consumable",
+        "price": 1.5,
+        "quantity": 15,
+        "fileName": "bottle_standard_green.png"
+    },
+    {
+        "id": 7,
+        "name": "Silver Necklace",
+        "type": "Consumable",
+        "price": 12,
+        "quantity": 4,
+        "fileName": "necklace_silver_red.png"
+    },
+    {
+        "id": 8,
+        "name": "Gold Crown",
+        "type": "Consumable",
+        "price": 10,
+        "quantity": 7,
+        "fileName": "crown_gold.png"
+    },
+    {
+        "id": 9,
+        "name": "Magical Ring",
+        "type": "Consumable",
+        "price": 20,
+        "quantity": 11,
+        "fileName": "ring_gold_magic.png"
+    }
+]
